@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Signal over noise",
-			description: "Cutting through scattered directories to surface only the most relevant exhibitions for your context."
+			title: "Curatorial precision",
+			description: "Filtering 4,000+ global exhibitions to surface only what matters to serious collectors and gallery professionals."
 		},
 		{
-			title: "Early discovery",
-			description: "Spotting emerging talent and under-the-radar venues before they hit mainstream coverage."
+			title: "Insider intelligence", 
+			description: "Early signals on emerging artists and under-the-radar venues before they hit mainstream art media."
 		},
 		{
-			title: "Art world focus",
-			description: "Built by insiders who understand the unique needs of gallery directors and collectors."
+			title: "Art world native",
+			description: "Built by gallery insiders who understand the $67B market's unique discovery and timing challenges."
 		}
 	];
 </script>
@@ -52,35 +52,28 @@
 		{
 			name: "Lukas Amacher",
 			position: "Founder",
-			bio: "Long-time art world operator who experienced firsthand the frustration of tracking meaningful exhibitions across scattered directories.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Trusted by the art community."
-	subtitle="From gallery directors to serious collectors"
-	stakeholders={[
-		{
-			name: "Gallery Directors",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Art Collectors",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Art Fair Partners",
-			image: "https://www.unc.mn/image-placeholder.svg"
+			bio: "Art world insider who built INDEX to solve the exhibition discovery problem he faced firsthand. Background in art curation and digital platforms.",
+			image: "/generated/image-a-professional-headshot-of-a-man-photogr.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to discover better shows?"
-	subtitle="Join thousands who trust INDEX for exhibition discovery"
-	description="Stop wasting time on scattered directories. Start finding the right exhibitions at the right time with location-aware search and curated artist data."
+	title="Find exhibitions worth flying to"
+	subtitle="Signal over noise, always"
+	description="Stop wasting time on scattered directories. INDEX cuts through 4,000+ global shows with clean artist, venue, and location filters collectors actually need."
+	imageSrc="/generated/image-a-diverse-group-of-people-inside-a-brigh.webp"
+	callsToAction={[
+		{
+			href: "/",
+			label: "Start exploring",
+			variant: "primary"
+		},
+		{
+			href: "/",
+			label: "Get show alerts",
+			variant: "secondary"
+		}
+	]}
 />

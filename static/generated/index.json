@@ -30,5 +30,13 @@
   {
     "prompt": "A modern, minimalist office environment functioning as an art gallery, with a small group of professionally dressed people engaging in quiet conversation and admiring artwork on the walls. The space is bright and clean, featuring neutral tones, simple furniture, and large windows letting in natural light. Subtle variations in group arrangement, attire, and artwork placement across images.",
     "filename": "/generated/image-a-modern-minimalist-office-environment-f.webp"
+  },
+  {
+    "prompt": "A professional headshot of a man, photographed against a clean, minimal art gallery background with soft natural lighting, neutral tones, and uncluttered walls. The man is well-groomed, dressed in modern business casual attire, with a confident yet approachable expression. The background features subtle hints of contemporary sculptures or paintings, but remains understated to keep the focus on the subject. The overall atmosphere is elegant, serene, and sophisticated.",
+    "filename": "/generated/image-a-professional-headshot-of-a-man-photogr.webp"
+  },
+  {
+    "prompt": "A diverse group of people inside a bright, spacious art gallery, some standing alone thoughtfully observing modern sculptures or abstract paintings on the walls, others quietly discussing the art in pairs or small groups. The environment features polished wooden floors, white walls, and large windows letting in natural daylight. The visitors are casually dressed, with a relaxed yet attentive demeanor. Some people stand closer to the art pieces, hands on chin or arms crossed, while others walk slowly through the gallery, creating a sense of quiet contemplation and engagement with the artworks.",
+    "filename": "/generated/image-a-diverse-group-of-people-inside-a-brigh.webp"
   }
 ]
