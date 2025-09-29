@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Discover exhibitions that matter"
+	subtitle="Filter 4,000+ global shows through location-aware search. Find emerging talent before they hit mainstream directories."
+	imageSrc="/generated/image-a-group-of-people-gathered-in-a-modern-n.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by galleries and institutions"
+	logoUrls={[
+		'https://cdn.brandfetch.io/moma.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/gagosian.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/whitney.org/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/davidzwirner.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
