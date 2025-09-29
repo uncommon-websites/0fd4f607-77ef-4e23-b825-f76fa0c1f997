@@ -11,94 +11,76 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Signal over noise",
+			description: "Cutting through scattered directories to surface only the most relevant exhibitions for your context."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Early discovery",
+			description: "Spotting emerging talent and under-the-radar venues before they hit mainstream coverage."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Art world focus",
+			description: "Built by insiders who understand the unique needs of gallery directors and collectors."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Find art that matters"
+	subtitle="Signal over noise, always"
+	imageSrc="/generated/image-a-modern-minimalist-office-environment-f.webp"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"As a gallery director or serious collector, you shouldn't have to waste hours guessing which shows are worth your attention. But existing directories are cluttered, poorly filtered, and slow to surface new talent. You miss the right moment. Or the right artist entirely.",
+		"INDEX filters over 4,000 global exhibitions with clean, structured data—artist, venue, location—so you only see what's relevant to your context. Whether you're scouting for emerging voices in Berlin or planning a trip to Mexico City, INDEX shows you what's nearby, timely, and worth seeing.",
+		"Our platform doesn't wait for artists to hit the headlines. By tracking geography, timing, and under-the-radar venues, we help you spot key moves before they trickle into mainstream coverage. Less noise, more signal—because timing is everything when you're chasing the edge."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
-	subtitle="Your partners in innovation."
+	subtitle="Built by art world insiders who understand the discovery problem."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Lukas Amacher",
+			position: "Founder",
+			bio: "Long-time art world operator who experienced firsthand the frustration of tracking meaningful exhibitions across scattered directories.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	title="Trusted by the art community."
+	subtitle="From gallery directors to serious collectors"
 	stakeholders={[
 		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
+			name: "Gallery Directors",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Art Collectors",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Art Fair Partners",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready to discover better shows?"
+	subtitle="Join thousands who trust INDEX for exhibition discovery"
+	description="Stop wasting time on scattered directories. Start finding the right exhibitions at the right time with location-aware search and curated artist data."
 />
