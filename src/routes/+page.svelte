@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+
+	// Icons
+	import IconMapPin from "~icons/lucide/map-pin";
+	import IconFilter from "~icons/lucide/filter";
+	import IconRadar from "~icons/lucide/radar";
+	import IconBell from "~icons/lucide/bell";
+	import IconUsers from "~icons/lucide/users";
+	import IconDatabase from "~icons/lucide/database";
 </script>
 
 <CenteredTextOnlyHero
@@ -61,24 +69,44 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Discovery platform built for the art world"
+	subtitle="Transform how you find exhibitions with tools designed specifically for gallery professionals and collectors"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Location-aware discovery",
+			description: "Find exhibitions by proximity with intelligent geographic filtering that surfaces shows within your preferred travel radius.",
+			icon: IconMapPin,
+			imageSrc: "/generated/image-a-gallery-director-thoughtfully-examinin.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Signal-to-noise filtering",
+			description: "Cut through directory clutter with curated exhibition data that eliminates irrelevant listings and focuses on quality shows.",
+			icon: IconFilter,
+			imageSrc: "/generated/image-an-art-curator-studying-a-collection-of-.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Emerging talent radar",
+			description: "Discover promising artists before they hit mainstream directories through our network of gallery insiders and trend analysis.",
+			icon: IconRadar,
+			imageSrc: "/generated/image-an-artist-focused-on-painting-at-an-ease.webp"
+		},
+		{
+			title: "Real-time exhibition alerts",
+			description: "Receive instant notifications about new shows matching your interests, ensuring you never miss important openings.",
+			icon: IconBell,
+			imageSrc: "/generated/image-a-well-dressed-art-collector-closely-obs.webp"
+		},
+		{
+			title: "Curated gallery network",
+			description: "Access hand-selected venues from our network of 2,500+ galleries, focusing on quality over comprehensive coverage.",
+			icon: IconUsers,
+			imageSrc: "/generated/image-a-series-of-interconnected-gallery-rooms.webp"
+		},
+		{
+			title: "Clean data architecture",
+			description: "Navigate exhibitions through structured artist-venue-location data that eliminates the guesswork from discovery.",
+			icon: IconDatabase,
+			imageSrc: "/generated/image-a-team-of-archivists-organizing-and-cata.webp"
 		}
 	]}
 />
